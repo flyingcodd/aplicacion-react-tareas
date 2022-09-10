@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ListaDeTareas from './components/ListaDeTareas';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="aplicacion-tareas">
+      <div className='freecodecamp-logo-contenedor'>
+        <img src='https://www.ackee.cz/blog/wp-content/uploads/2018/11/react_hooks_web-min.png' alt='logo.png' className='freecodecamp-logo' />
+      </div>
+      <div className='tareas-lista-principal'>
+        <h1>Lista de tareas</h1>
+        <ListaDeTareas />
+      </div>
     </div>
   );
 }
