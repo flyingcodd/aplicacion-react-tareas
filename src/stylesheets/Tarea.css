@@ -11,6 +11,11 @@
     border: 1px solid white;
     cursor: pointer;
 }
+@media screen and (max-width: 600px){
+    .tarea-contenedor{
+        width: 100%;
+    }
+}
 
 /* colore */
 .tarea-contenedor:nth-child(3n + 1){
