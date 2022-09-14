@@ -66,14 +66,16 @@ function ListaDeTareas(props) {
             await updateDoc(doc(db, "tareas", id), {
               tarea_completada: tmp,
             });
-            console.log("Document successfully updated!");
+            setTareas(tareasActualizadas);
+            //console.log("Document successfully updated!");
           }
             catch (e) {
+                alert("Error updating document: ", e);
             // The document probably doesn't exist.
-            console.error("Error updating document: ", e);
+            //console.error("Error updating document: ", e);
           }
     /* finalizando actualizando en firebase */
-        setTareas(tareasActualizadas);
+        //setTareas(tareasActualizadas);
     };
     
 
