@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Visitie la pagina: https://flyingcodd.github.io/aplicacion-react-tareas/
 ![image](https://user-images.githubusercontent.com/90803482/189493520-21b5624f-0ddc-442a-84ca-49de1690152c.png)
 
 ## Available Scripts
